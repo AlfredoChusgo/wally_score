@@ -1,6 +1,4 @@
 "use client";
-import Image from "next/image";
-import styles from "./page.module.css";
 import * as React from "react";
 import Box from "@mui/material/Box";
 import { DataGrid, GridColDef } from "@mui/x-data-grid";
@@ -8,6 +6,7 @@ import Container from "@mui/material/Container/Container";
 import wally_data from "./assets/wally_data";
 import Tabs from "@mui/material/Tabs/Tabs";
 import Tab from "@mui/material/Tab/Tab";
+import { JugadorHabilidades } from "./model/jugador";
 
 const columns: GridColDef<(typeof rows)[number]>[] = [
   { field: "id", headerName: "ID", width: 90 },

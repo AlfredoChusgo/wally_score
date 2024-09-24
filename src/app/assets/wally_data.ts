@@ -1,3 +1,5 @@
+import { Jugador, JugadorHabilidades } from "../model/jugador";
+
 const wallyInfo: Jugador[] = [
   {
     id: "1",

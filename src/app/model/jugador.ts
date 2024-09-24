@@ -1,4 +1,4 @@
-interface Habilidades {
+export interface Habilidades {
     ataque: number;
     defensa: number;
     salvada: number;
@@ -7,13 +7,13 @@ interface Habilidades {
     saque: number;
   }
   
-  interface Jugador {
+  export interface Jugador {
     id: string;
     nombre: string;
     habilidades: Habilidades;
   }
 
-  interface JugadorHabilidades {
+  export interface JugadorHabilidades {
     id: string;
     nombre: string;
     ataque: number;
